@@ -1,0 +1,9 @@
+# Dependencies for the ML pipeline (ml/generate_dataset.py, ml/train_classifier.py).
+# The project's Django venv did not previously include any ML libraries --
+# install these into it before running the pipeline:
+#   pip install -r ml/requirements.txt
+scikit-learn==1.7.2
+pandas==2.3.3
+numpy==2.2.6
+joblib==1.5.3
+tabulate==0.10.0
